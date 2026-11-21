@@ -13,7 +13,7 @@
       "id": "T2",
       "name": "Apply for the road closure",
       "owner": "Ruth",
-      "duration_days": 10,
+      "duration_days": 14,
       "depends_on": [
         "T1"
       ],
@@ -45,7 +45,9 @@
       "name": "Arrange the event insurance",
       "owner": "Ruth",
       "duration_days": 3,
-      "depends_on": [],
+      "depends_on": [
+        "T4"
+      ],
       "quote": "Arrange the event insurance"
     },
     {
@@ -143,7 +145,7 @@
       "depends_on": [
         "T14"
       ],
-      "quote": "Run lantern-making workshops in both of the schools"
+      "quote": "Run the lantern-making workshops in both schools"
     },
     {
       "id": "T16",
@@ -178,17 +180,17 @@
     },
     {
       "id": "T19",
-      "name": "Hire the stage lighting and PA",
+      "name": "Arrange hire of stage lighting and PA system",
       "owner": "Ruth",
       "duration_days": 3,
       "depends_on": [
         "T6"
       ],
-      "quote": "Once both bands are booked and have sent over what they need, Ruth will also arrange the hire of the stage lighting and a PA system for the green."
+      "quote": "Once both bands are booked and have sent over what they need, Ruth will also arrange the hire of the stage lighting and a PA system for the green. She reckons that is three days of phone calls and quotes."
     },
     {
       "id": "T20",
-      "name": "Collect and store the finished lanterns",
+      "name": "Collect and store finished lanterns",
       "owner": "Priya",
       "duration_days": 2,
       "depends_on": [
@@ -198,30 +200,65 @@
     },
     {
       "id": "T21",
-      "name": "Build the finale frame",
+      "name": "Build finale frame",
       "owner": "Gareth",
       "duration_days": 8,
       "depends_on": [
         "T13"
       ],
-      "quote": "Gareth will build the frame for the finale in his garage, so it only needs putting up on the green on the evening."
+      "quote": "Gareth will build the frame for the finale in his garage, so it only needs putting up on the green on the evening. He can start as soon as the sponsorship money is in to buy the timber, and it takes him eight days."
     },
     {
       "id": "T22",
-      "name": "Write the press release and social media posts",
+      "name": "Write press release and set up social media posts",
       "owner": "Tom",
       "duration_days": 3,
       "depends_on": [
         "T16"
       ],
-      "quote": "Once the poster design is done, Tom will also write the press release for the Pellerby Echo and set up the posts for our social media page, so that everything uses the same artwork."
+      "quote": "Once the poster design is done, Tom will also write the press release for the Pellerby Echo and set up the posts for our social media page, so that everything uses the same artwork. He thinks that is three days."
     }
   ],
   "findings": [
     {
-      "title": "One task has no owner",
-      "detail": "The task to arrange extra bins and a litter-pick team for the night is marked tbc, so nobody is responsible for it and it may not get done.",
+      "title": "Task has no owner",
+      "detail": "The task to arrange extra bins and a litter-pick team lists 'tbc' as the owner, so nobody is assigned to do it.",
       "quote": "Arrange extra bins and a litter-pick team for the night"
+    },
+    {
+      "title": "One person carries too many tasks",
+      "detail": "Ruth Marsh is assigned nine tasks, including permissions, bookings, insurance, both bands, food stalls, stewards, and stage lighting, creating a heavy workload and single point of failure.",
+      "quote": "Ruth Marsh, our chair, has very kindly agreed to look after the permissions and the bookings again. She did all of this last year and knows everyone at the council, and it saves a lot of back and forth if one person keeps it all together."
+    },
+    {
+      "title": "Missing dependency: risk assessment needs first aid cover",
+      "detail": "The table shows the risk assessment depending only on the route and site plan, but the notes say Ruth writes it only after Gareth confirms first aid cover.",
+      "quote": "Ruth will write the risk assessment once Gareth has confirmed the first aid cover, because the council's template asks for the first aid arrangements to be written into it."
+    },
+    {
+      "title": "Missing dependency: insurance needs risk assessment",
+      "detail": "The table lists no dependency for event insurance, but the notes say the broker will not quote until the finished risk assessment is seen.",
+      "quote": "Last year they would not give us a quote until they had seen the finished risk assessment, so Ruth will do the insurance after that."
+    },
+    {
+      "title": "Missing dependency: printing needs road closure approval",
+      "detail": "The table shows printing depending only on design, but the notes say the printers cannot have the poster until the road closure has been approved.",
+      "quote": "The printers cannot have the poster until the road closure has been approved, because the poster has the route map and the closure times on it."
+    },
+    {
+      "title": "Tasks in the notes are missing from the table",
+      "detail": "The task list introduction says it covers everything, but the notes add tasks for stage lighting/PA hire, collecting and storing lanterns, building the finale frame, and press release/social media posts.",
+      "quote": "This is everything we know needs doing, with who is doing it and roughly how long it takes."
+    },
+    {
+      "title": "Unclear date: road closure approval time",
+      "detail": "Poster printing depends on the road closure being approved, but the plan only gives a duration for applying (about two weeks), not for the council's approval.",
+      "quote": "The printers cannot have the poster until the road closure has been approved, because the poster has the route map and the closure times on it."
+    },
+    {
+      "title": "Missing task: erecting the finale frame on the night",
+      "detail": "Gareth builds the frame in his garage, but no task or owner is assigned for putting it up on Quay Green on the evening of the festival.",
+      "quote": "Gareth will build the frame for the finale in his garage, so it only needs putting up on the green on the evening."
     }
   ]
 }

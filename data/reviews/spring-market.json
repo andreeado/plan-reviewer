@@ -80,5 +80,21 @@
       "quote": "Set up the volunteer rota for the day"
     }
   ],
-  "findings": []
+  "findings": [
+    {
+      "title": "Missing task for the children's corner",
+      "detail": "The plan describes a children's corner with colouring and a book swap, but no task is listed to organise it, assign an owner, or set a duration.",
+      "quote": "a small children's corner with colouring and a book swap."
+    },
+    {
+      "title": "Event date is relative only",
+      "detail": "The deadline is 21 days after the kickoff meeting, but the kickoff meeting date is not given, so the actual calendar date cannot be determined.",
+      "quote": "The market is on a Saturday, 21 days after our kickoff meeting"
+    },
+    {
+      "title": "On-day clearing and stacking has no owner",
+      "detail": "The plan says the rooms will be cleared and tables stacked by 5pm, but does not name who is responsible for this work.",
+      "quote": "The caretaker locks up at 5pm, by which time the rooms will be cleared and the tables stacked."
+    }
+  ]
 }
