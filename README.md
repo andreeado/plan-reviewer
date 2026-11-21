@@ -39,7 +39,7 @@ cd backend && ../.venv/bin/uvicorn app.main:app --port 8000
 .venv/bin/pytest backend/tests
 ```
 
-To review a plan with a model, set `ANTHROPIC_API_KEY`, and optionally `REVIEW_MODEL`, then run:
+To review a plan with a model, set `OPENROUTER_API_KEY`, and optionally `REVIEW_MODEL`, then run:
 
 ```sh
 mkdir -p out
